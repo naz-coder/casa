@@ -1,0 +1,44 @@
+button{
+    border:                 none;
+    display:                flex;
+    justify-content:        space-between;
+    align-items:            center; 
+    padding:                0.3rem 0.6rem 0.3rem 0.6rem;
+    border-radius:          0.5rem;
+
+}
+
+button:hover{
+    cursor:                 pointer;
+    border:                 1px solid #dddada;
+    opacity:                0.7;
+    translate:              3s;
+}
+
+button a:hover{
+    cursor:                 pointer;
+    border:                 1px solid #dddada;
+    opacity:                0.7;
+    translate:              3s;
+}
+
+button .hamburger {
+    padding:                0.2rem 0.5rem 0 0;
+    height:                 4vh;
+    font-size:              1.5rem;
+    color:                #5F6368;
+}
+
+button .cancel {
+    padding:                0.2rem 0.5rem 0 0;
+    height:                 4vh;
+    font-size:              1.5rem;
+    color:                #5F6368;
+}
+
+button .user{
+    width:                  2vw;
+    height:                 4.3vh;
+    color:                #5F6368;
+
+}
